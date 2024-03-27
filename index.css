@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-conatiner{
+    background-color:  rgb(72, 114, 63);
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+    
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color:rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(19, 189, 19);
+}
+.bi-bag-heart-fill{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.bi-bag-heart-fill:hover{
+    color:rgb(20, 219, 20);
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main1{
+    background-color: rgb(44, 68, 39);
+    color: rgb(135, 255, 135);
+}
+.main2{
+    background-color: rgb(72, 114, 63);
+}
+.main{
+    /* background-color: rgb(96, 168, 68); */
+    
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5ream;
+}
+.main p:nth-child(1){
+    font-size: 10px;
+    font-weight: 500;
+}
+.main p:nth-child(2){
+    font-size: 10px;
+    font-weight: 500;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+}
+.mbtn1:hover{
+    background-color: rgb(19, 189, 19);
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    color: rgb(20, 219, 20);
+    background-color: transparent;
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgb(19, 189, 19);
+    border: none;
+    color: white;
+}
+/* cards */
+
+.card-body-text{
+    color: rgb(7, 36, 7);
+
+}.welcome{
+    background-color: rgb(41, 83, 41);
+    color: rgb(37, 253, 37);
+}
+.about-line{
+    height: 2px;
+    width: 80%;
+    background-color: rgb(96, 168, 68);
+    display: inline-block;  
+    color: lightgreen;  
+}
+.welcome h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.welcome .card{
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(118, 180, 100);
+
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(41, 83, 41);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+/* Product */
+.product{
+    background-color: rgb(92, 151, 92);
+}
+.about-line1{
+    height: 2px;
+    width: 80%;
+    background-color:  rgb(41, 83, 41);
+    display: inline-block;    
+}
+.star{
+    text-align: right;
+    color: orangered;
+}
+.product .card{
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px solid rgb(214, 214, 214);
+}
+.fruit-name{
+    font-weight: 400;
+    margin: 0;
+}
+.fruit-price{
+    color: gray;
+}
+.button-fruit{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: 0.4s;
+}
+.button-fruit:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+.card-img-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* discount */
+.discount{
+    background-color:  rgb(118, 180, 100);
+    color: white;
+}
+.discount-coupon{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+.discount-text{
+    color: rgb(41, 83, 41);
+}
+.discount-button{   
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: 0.4s;
+}
+.discount-button:hover{
+    background-color: rgb(253, 238, 211);
+}
+/* store */
+.store{
+    background-color: rgb(44, 68, 39);
+    color: lightgreen;
+}
