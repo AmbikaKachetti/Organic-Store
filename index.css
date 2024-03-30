@@ -13,7 +13,7 @@
     font-weight: 600;
     text-transform: uppercase;
     margin-right: 15px;
-    transition: 0.4s;
+    
 }
 .nav-item a:hover{
     /* color: rgb(20, 219, 20); */
@@ -22,15 +22,21 @@
 .navbar-brand{
     height: 60px;
     width: 100px;
-    
 }
+/* .navbar-brand a{
+    transition: .8s;
+}
+.navbar-brand a:hover{
+    transform: scale(0.8);
+} */
 .logo:hover{
     color:  rgb(189, 247, 163);
 }
 .search{
     height: 45px;
     outline: none;
-    border: 2px solid rgb(20, 219, 20);
+    color:  rgb(189, 247, 163);
+    border: 1.5px solid rgb(189, 247, 163);
     background-color: transparent;
     border-radius: 20px 0px 0px 20px;
     border-right: none;
@@ -39,15 +45,15 @@
     height: 45px;
     outline: none;
     border: none;
-    background-color:rgb(20, 219, 20);
-    color: white;
+    background-color: rgb(189, 247, 163);
+    color: rgb(7, 36, 7);
     border-radius: 0px 20px 20px 0px;
     transition: 0.4s;
 }
 .btn1:hover{
-    background-color: rgb(19, 189, 19);
+    background-color:  rgb(161, 255, 118);
 }
-.bi-bag-heart-fill{
+/* .bi-bag-heart-fill{
     font-size: 30px;
     color: black;
     cursor: pointer;
@@ -56,10 +62,17 @@
 }
 .bi-bag-heart-fill:hover{
     color:rgb(20, 219, 20);
-}
+} */
 .navbar-toggler{
     font-size: 23px;
-    color: black;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(189, 247, 163);
+    background-color: transparent;
+}
+.navbar-toggler:hover{
+    border: 1px solid rgb(189, 247, 163);
 }
 .navbar-toggler:focus{
     outline: none;
@@ -70,7 +83,7 @@
     background: url("./assets/images/bg-3.jpg")no-repeat;
     color: rgb(189, 247, 163);
     background-size: cover;
-    height: 88vh;
+    height: 98vh;
     width: 100%;
 }
 .main h1{
@@ -185,6 +198,9 @@
 .product .card-body{
     border: 1px solid rgb(214, 214, 214);
 }
+.product .card-body .star{
+    color: orange;
+}
 .fruit-name{
     font-weight: 400;
     margin: 0;
@@ -283,6 +299,7 @@
 .seller h1{
     font-size: 3rem;
     font-weight: 600;
+    color: rgb(44, 68, 39);
 }
 .seller i{
     color: orange;
@@ -292,8 +309,70 @@
     border: none;
     background-color:  rgb(161, 255, 118);
 }
-/* contact */
+/* contact us */
 .contact{
-    background-color: rgb(44, 68, 39);
-    color: rgb(189, 247, 163);
+    background-image: url("./assets/images/contact\ bg1.jpg");
+    background-size: cover;
+    /* background-color: rgb(44, 68, 39); */
+    color: rgb(161, 255, 118);
+}
+.card-contact{
+    /* color:  rgb(161, 255, 118); */
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 20px 10px;
+}
+/* .contact-content{
+    color:  rgb(44, 68, 39);
+} */
+.contact-content-span input,
+.contact-email-span input
+{
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.contact-content-span input,
+.contact-email-span input,
+.contact-message-span input
+{
+    background-color: rgb(183, 250, 151);
+}
+.contact-message-span input{
+    border-radius: 6px;
+    border: none;
+    padding: 40px;
+    width: 50%;
+    height: 50%;
+    background-color: (161, 255, 118);
+}
+/* .contact-actions button{
+    transition: .8s;
+}
+.contact-actions button:hover{
+    transform: scale(0.8);
+} */
+.footer-icon{
+    background-color:  rgb(183, 250, 151);
+    color: black;
+    padding: 5px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+}
+.designed-by{
+    font-size: 14px;
+}
+.image-container{
+    position: relative;
+}
+.image-container span{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
 }

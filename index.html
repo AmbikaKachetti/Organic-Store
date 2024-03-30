@@ -19,28 +19,28 @@
 </head>
 <body>
 
-<nav class="navbar main-conatiner navbar-expand-lg pb-3">
+<nav class="navbar main-conatiner fixed-top navbar-expand-lg pb-3">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/images/organic (3).png" class ="logo" alt="logo-image" height="70" width="70"></a>
+        <a class="navbar-brand" href="#"><img src="./assets/images/organic logo.png" class ="logo" alt="logo-image" height="70" width="70"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto mb-2 text-center mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="#main">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#products">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" >Services</a>
+                    <a class="nav-link" href="#services" >Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trending</a>
+                    <a class="nav-link" href="#trending">Trending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Contact" data-bs-toggle = "tab" >Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             <form class="d-flex">
@@ -52,25 +52,12 @@
         </div>
     </div>
 </nav>
-<div class = "tab-content m-4">
-    <div class ="tab-pane" id = "contact">
-        <dl>
-            <dt>Name</dt>
-            <dd><input type="text"></dd>
-            <dt>Email</dt>
-            <dd><input type="email" placeholder="Enter your email"></dd>
-            <dt>Message</dt>
-            <dd><input type="text" width="50" height="50"></dd>
-        </dl>
-        <button class = "btn btn-primary">Send</button>
-    </div>
-</div>
 <!-- main container1 -->
-<section class="main main1 py-5">
+<section class="main main1 py-5" id="main">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 py-5">
-                <p>Organic products</p>
+                <p class="pt-5">Organic products</p>
                 <h1>Farm Fresh Veggies</h1>
                 <div class="line my-4"></div>
                 <p>
@@ -84,7 +71,7 @@
     </div>
 </section>
 <!-- about container -->
-<section class="about py-5">
+<section class="about py-5" id = "about">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 py-2 offset-lg-7">
@@ -172,7 +159,7 @@
     </div>
 </section>
 <!-- Group of Products -->
-<section class="product pb-5">
+<section class="product pb-5" id="products">
     <div class="container py-5">
         <div class="row py-5 text-center">
             <div class="col-lg-6 m-auto">
@@ -186,6 +173,9 @@
             <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
                 <div class="card p-2 main-conatiner">
                     <div class="card-body text-white">
+                        <div class="image-container">
+                            <span class="px-3">Best Offer</span>
+                        </div>
                         <div class="star">
                             <span><i class="bi bi-star-fill"></i></span>
                             <span><i class="bi bi-star-fill"></i></span>
@@ -197,7 +187,7 @@
                             <img src="./assets/images/grape.png" alt="fruit-grapes" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Grape Fruit</h4>
-                        <p class="fruit-price">₹ 113 / Kg</p>
+                        <del class="fruit-price">₹ 113 / Kg</del>
                         <h4 class="fruit-name">₹ 83</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -217,7 +207,7 @@
                             <img src="./assets/images/pear.png" alt="fruit-pear" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Pear Fruit</h4>
-                        <p class="fruit-price">₹ 557 / Kg</p>
+                        <del class="fruit-price">₹ 557 / Kg</del>
                         <h4 class="fruit-name">₹ 407</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -226,6 +216,9 @@
             <div class="col-sm-12 col-md-6 col-lg-4 mb-2 m-auto">
                 <div class="card p-2 main-conatiner">
                     <div class="card-body text-white">
+                        <div class="image-container">
+                            <span class="px-3">Best Offer</span>
+                        </div>
                         <div class="star">
                             <span><i class="bi bi-star-fill"></i></span>
                             <span><i class="bi bi-star-fill"></i></span>
@@ -237,7 +230,7 @@
                             <img src="./assets/images/pomogranate.png" alt="fruit-pomogranate" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Pomegranate</h4>
-                        <p class="fruit-price">₹ 195 / Kg</p>
+                        <del class="fruit-price">₹ 195 / Kg</del>
                         <h4 class="fruit-name">₹ 179</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -259,7 +252,7 @@
                             <img src="./assets/images/guava.png" alt="fruit-guava" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Guava Fruit</h4>
-                        <p class="fruit-price">₹ 112 / Kg</p>
+                        <del class="fruit-price">₹ 112 / Kg</del>
                         <h4 class="fruit-name">₹ 99</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -268,6 +261,9 @@
             <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
                 <div class="card p-2 main-conatiner">
                     <div class="card-body text-white">
+                        <div class="image-container">
+                            <span class="px-3">Best Offer</span>
+                        </div>
                         <div class="star">
                             <span><i class="bi bi-star-fill"></i></span>
                             <span><i class="bi bi-star-fill"></i></span>
@@ -279,7 +275,7 @@
                             <img src="./assets/images/plum.png" alt="fruit-plum" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Plum Fruit</h4>
-                        <p class="fruit-price">₹ 847 / Kg</p>
+                        <del class="fruit-price">₹ 847 / Kg</del>
                         <h4 class="fruit-name">₹ 649</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -299,7 +295,7 @@
                             <img src="./assets/images/dragon.png" alt="fruit-dragon" class ="pb-3" height="200px" width="180px">
                         </div>
                         <h4 class="fruit-name">Dragon Fruit</h4>
-                        <p class="fruit-price">₹ 106 / 1pc</p>
+                        <del class="fruit-price">₹ 106 / 1pc</del>
                         <h4 class="fruit-name">₹ 90</h4>
                         <button class="btn button-fruit my-1">Add to Cart</button>
                     </div>
@@ -331,12 +327,12 @@
     </div>
 </section> -->
 <!-- store -->
-<section class="store py-5 text-center">
+<section class="store py-5 text-center" id="services">
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <p class="m-0">Green Agriculture</p>
-                <h1>Our Best Products</h1>
+                <h1>Our Best Services</h1>
                 <div class="about-line my-4"></div>
                 <p>Organic farming is also concerned with protecting the environment and working in harmony with existing ecosystems – including conserving water, soil and energy, and using renewable resources and natural farming cycles.</p>
             </div>
@@ -382,10 +378,10 @@
     </div>
 </section>
 <!-- best seller -->
-<section class="seller py-2">
+<section class="seller py-2" id="trending">
     <div class="container py-3">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12 text-center">
                 <h1 class="py-5">
                     New Arrivals
                 </h1>
@@ -406,7 +402,7 @@
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Coriander</h5>
-                                <p class="fruit-price">₹ 250 / Kg</p>
+                                <del class="fruit-price">₹ 250 / Kg</del>
                                 <h5 class="fruit-name">₹ 183</h5>
                             </div>
                         </div>
@@ -417,17 +413,19 @@
                 <div class="card" hight="100" width="100">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1 pb-3">
+                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1 pb-3 image-container">
                                 <img src="./assets/images/Garlic.png" alt="garlic" class= "img-fluid" height="200" width="200">
+                                <span class="px-4">Offer</span><br>
                             </div>
                             <div class="col-sm-6 col-md-12 col-lg-6 ps-5 pt-5 pe-5 pb-4">
+                                
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Garlic</h5>
-                                <p class="fruit-price">₹ 376 / Kg</p>
+                                <del class="fruit-price">₹ 376 / Kg</del>
                                 <h5 class="fruit-name">₹ 270</h5>
                             </div>
                         </div>
@@ -438,17 +436,19 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1">
+                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1  image-container">
                                 <img src="./assets/images/Lime.png" alt="lime" class= "img-fluid" height="200" width="200">
+                                <span class="px-4">Offer</span><br>
                             </div>
                             <div class="col-sm-6 col-md-12 col-lg-6 ps-5 pt-5 pe-5 pb-4">
+                                
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Lime</h5>
-                                <p class="fruit-price">₹ 369 / Kg</p>
+                                <del class="fruit-price">₹ 369 / Kg</del>
                                 <h5 class="fruit-name">₹ 159</h5>
                             </div>
                         </div>
@@ -461,6 +461,7 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1">
                                 <img src="./assets/images/Mirchi.png" alt="mirchi" class= "img-fluid" height="200" width="200">
+                                
                             </div>
                             <div class="col-sm-6 col-md-12 col-lg-6 ps-5 pt-5 pe-5 pb-4">
                                 <span><i class="bi bi-star-fill"></i></span>
@@ -469,7 +470,7 @@
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Mirchi</h5>
-                                <p class="fruit-price">₹ 209 / Kg</p>
+                                <del class="fruit-price">₹ 209 / Kg</del>
                                 <h5 class="fruit-name">₹ 153</h5>
                             </div>
                         </div>
@@ -480,8 +481,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1">
+                            <div class="col-sm-6 col-md-12 col-lg-6 text-center pt-1  image-container">
                                 <img src="./assets/images/Onion.png" alt="onion" class= "img-fluid" height="200" width="200">
+                                <span class="px-4">Offer</span><br>
                             </div>
                             <div class="col-sm-6 col-md-12 col-lg-6 ps-5 pt-5 pe-5 pb-4">
                                 <span><i class="bi bi-star-fill"></i></span>
@@ -490,7 +492,7 @@
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Onion</h5>
-                                <p class="fruit-price">₹ 154 / 5 Kg</p>
+                                <del class="fruit-price">₹ 154 / 5 Kg</del>
                                 <h5 class="fruit-name">₹ 112</h5>
                             </div>
                         </div>
@@ -511,7 +513,7 @@
                                 <span><i class="bi bi-star-fill"></i></span>
                                 <span><i class="bi bi-star-half"></i></span>
                                 <h5 class="fruit-name">Fresh Ginder</h5>
-                                <p class="fruit-price">₹ 291 / Kg</p>
+                                <del class="fruit-price">₹ 291 / Kg</del>
                                 <h5 class="fruit-name">₹ 150</h5>
                             </div>
                         </div>
@@ -523,14 +525,51 @@
 </section>
 
 <!-- contact -->
-<section class="contact py-5 text-center">
+<section class="contact text-end" id="contact">
     <div class="container py-5">
         <div class="row">
-            <div class="col-lg-7 m-auto">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <p class="m-0">Green Agriculture</p>
                 <h1>Contact Us</h1>
                 <div class="about-line my-4"></div>
                 <p>Organic farming is also concerned with protecting the environment and working in harmony with existing ecosystems – including conserving water, soil and energy, and using renewable resources and natural farming cycles.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class ="card-contact">
+                    <div class ="contact-content">
+                        <div class ="contact-content-span pb-4">
+                            <label>Name</label>
+                            <input type ="text" placeholder="Enter Name">
+                        </div>
+                        <div class ="contact-email-span pb-4">
+                            <label>Email</label>
+                            <input type ="email" placeholder="Enter Email">
+                        </div>
+                        <div class ="contact-message-span pb-4">
+                            <label>Message</label>
+                            <input type ="Message" placeholder="Write your query here">
+                        </div>
+                    </div> 
+                    <div class ="contact-actions">
+                        <button class="btn mbtn1 mt-2">Send</button>
+                        <button class="btn mbtn2 mt-2">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="pb-1">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="designed-by">
+                    <ul class="text-stat">
+                        powered by Ambika Rama Katyayini
+                    </ul>
+                </div>
+                <div class="icons">
+                    <span><i class="bi bi-instagram  pe-2 footer-icon"></i></span>
+                    <span><i class="bi bi-youtube pe-2 footer-icon"></i></span>
+                    <span><i class="bi bi-twitter pe-2 footer-icon"></i></span>
+                    <span><i class="bi bi-facebook pe-2 footer-icon"></i></span>
+                </div>
+
             </div>
         </div>
 
