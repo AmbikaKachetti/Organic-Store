@@ -16,12 +16,16 @@
     transition: 0.4s;
 }
 .nav-item a:hover{
-    color: rgb(20, 219, 20);
+    /* color: rgb(20, 219, 20); */
+    color:  rgb(189, 247, 163);
 }
 .navbar-brand{
-    height: 50px;
+    height: 60px;
     width: 100px;
     
+}
+.logo:hover{
+    color:  rgb(189, 247, 163);
 }
 .search{
     height: 45px;
@@ -271,4 +275,25 @@
 }
 .store .card:hover .para1{
     color:  rgb(41, 83, 41);
+}
+/* bets seller */
+.seller{
+    background-color: rgb(200, 250, 178);
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 12px;
+    border: none;
+    background-color:  rgb(161, 255, 118);
+}
+/* contact */
+.contact{
+    background-color: rgb(44, 68, 39);
+    color: rgb(189, 247, 163);
 }
